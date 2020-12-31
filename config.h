@@ -10,14 +10,14 @@ static const unsigned int gappov      = 10;       /* vert outer gap between wind
 static const int smartgaps            = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar              = 1;        /* 0 means no bar */
 static const int topbar               = 1;        /* 0 means bottom bar */
-static const char *fonts[]            = { "Hack Nerd Font:size=10" };
-static const char dmenufont[]         = "Hack Nerd Font:size=10";
-static const char col_gray1[]         = "#1d2021"; /* gruvbox bg0_h */
-static const char col_gray2[]         = "#504945"; /* gruvbox bg2 */
-static const char col_gray3[]         = "#bdae93"; /* gruvbox fg3 */
-static const char col_gray4[]         = "#ebdbb2"; /* gruvbox fg */
-static const char col_cyan[]          = "#478061"; /* void green */
-static const unsigned int baralpha    = 0xd0;
+static const char *fonts[]            = { "Arimo Nerd Font:size=11" };
+static const char dmenufont[]         = "Arimo Nerd Font:size=11";
+static const char col_gray1[]         = "#282828"; /* gruvbox dark mode bg0 */
+static const char col_gray2[]         = "#282828"; /* gruvbox dark mode bg0 */
+static const char col_gray3[]         = "#a89984"; /* gruvbox dark mode gray */
+static const char col_gray4[]         = "#3c3836"; /* gruvbox dark mode bg1 */
+static const char col_cyan[]          = "#83a598"; /* gruvbox dark mode second blue */
+static const unsigned int baralpha    = 235;
 static const unsigned int borderalpha = OPAQUE;
 static const char *colors[][3]        = {
 	/*               fg         bg         border   */
