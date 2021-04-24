@@ -11,7 +11,6 @@ static const int smartgaps            = 0;        /* 1 means no outer gap when t
 static const int showbar              = 1;        /* 0 means no bar */
 static const int topbar               = 1;        /* 0 means bottom bar */
 static const char *fonts[]            = { "Ubuntu Nerd Font:size=11" };
-static const char dmenufont[]         = { "Hack Nerd Font:size=13" };
 static const char col_gray1[]         = "#1d2021"; /* #1d2021 = gbox dark bg0_h | #282828 = gbox dark bg0 (0) */
 static const char col_gray2[]         = "#282828";
 static const char col_gray3[]         = "#a89984"; /* #a89984 = gbox dark fg4 (7) */
@@ -52,7 +51,7 @@ static const int resizehints = 0;    /* 1 means respect size hints in tiled resi
 static const Layout layouts[] = {
 	/* symbol     arrange function */
 	{ "[]=",      tile },    /* first entry is default */
-	{ "><>",      NULL },    /* no layout function means floating behavior */
+	{ "><>",      NULL },    /* no layout function meanm floating behavior */
 	{ "[M]",      monocle },
 };
 
@@ -70,7 +69,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 #include <X11/XF86keysym.h>
