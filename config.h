@@ -11,17 +11,18 @@ static const int smartgaps            = 0;        /* 1 means no outer gap when t
 static const int showbar              = 1;        /* 0 means no bar */
 static const int topbar               = 1;        /* 0 means bottom bar */
 static const char *fonts[]            = { "Ubuntu Nerd Font:size=11" };
-static const char col_gray1[]         = "#1d2021"; /* #1d2021 = gbox dark bg0_h | #282828 = gbox dark bg0 (0) */
-static const char col_gray2[]         = "#282828";
-static const char col_gray3[]         = "#a89984"; /* #a89984 = gbox dark fg4 (7) */
+static const char col_gray1[]         = "#1d2021"; /* #1d2021 = gbox dark bg0_h */
+static const char col_gray2[]         = "#282828"; /* #282828 = gbox dark bg0 */
+static const char col_gray3[]         = "#a89984"; /* #a89984 = gbox dark fg4 */
 static const char col_gray4[]         = "#d5c4a1"; /* #d5c4a1 = gbox dark fg2 */
-static const char col_cyan[]          = "#3c3936"; /* #3c3836 = gbox dark bg1 | #504945 = gbox dark bg2 | #83a598 = gbox dark blue (12) */
+static const char col_cyan[]          = "#3c3936"; /* #3c3836 = gbox dark bg1 */
+static const char col_border[]        = "#ebddb2"; /* #ebddb2 = gbox fg */
 static const unsigned int baralpha    = 220;
 static const unsigned int borderalpha = 235; /* 235 = OPAQUE */
 static const char *colors[][3]        = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_gray3 },
+	[SchemeSel]  = { col_gray4, col_cyan,  col_border },
 };
 static const unsigned int alphas[][3] = {
 	/*               fg      bg        border   */
