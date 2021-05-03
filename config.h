@@ -71,6 +71,8 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, NULL };
 static const char *termcmd[]  = { "st", NULL };
+static const char scratchpadname[] = "scratch";
+static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "80x28", NULL };
 
 #include <X11/XF86keysym.h>
 
@@ -78,6 +80,7 @@ static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY|ShiftMask,             XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
+    { MODKEY,                       XK_grave,  togglescratch,  {.v = scratchpadcmd } },
 	{ MODKEY|ShiftMask,             XK_s,      spawn,          SHCMD("flameshot gui") },
 	{ MODKEY|ShiftMask,             XK_z,      spawn,          SHCMD("firejail --quiet --apparmor --seccomp --profile=/etc/firejail/zoom.profile --private=/opt/zoom/home /opt/zoom/ZoomLauncher") },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
