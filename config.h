@@ -10,12 +10,12 @@ static const unsigned int gappov      = 10;       /* vert outer gap between wind
 static const int smartgaps            = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar              = 1;        /* 0 means no bar */
 static const int topbar               = 1;        /* 0 means bottom bar */
-static const char *fonts[]            = { "Ubuntu Nerd Font:size=11" };
-static const char col_gray1[]         = "#28282c"; /* dark gray */
-static const char col_gray2[]         = "#28282c"; /* #282828 = gbox dark bg0 */
-static const char col_gray3[]         = "#9d9da6"; 
-static const char col_gray4[]         = "#000000";
-static const char col_cyan[]          = "#836fa9"; /* soft violet */
+static const char *fonts[]            = { "CaskaydiaCove Nerd Font:size=10.3" };
+static const char col_gray1[]         = "#282a36"; /* dark blueish gray */
+static const char col_gray2[]         = "#282a36"; 
+static const char col_gray3[]         = "#a8aab9"; /* 500 light tone of gray1 */ 
+static const char col_gray4[]         = "#000010";
+static const char col_cyan[]          = "#836fa9"; /* deasturated dark  violet */
 static const unsigned int baralpha    = 220;
 static const unsigned int borderalpha = 235; /* 235 = OPAQUE */
 static const char *colors[][3]        = {
