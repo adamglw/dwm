@@ -10,7 +10,7 @@ static const unsigned int gappov      = 10;       /* vert outer gap between wind
 static const int smartgaps            = 0;        /* 1 means no outer gap when there is only one window */
 static const int showbar              = 1;        /* 0 means no bar */
 static const int topbar               = 1;        /* 0 means bottom bar */
-static const char *fonts[]            = { "Ubuntu Nerd Font:weight=bold:pixelsize=14:antialias=true:hinting=true" };
+static const char *fonts[]            = { "Ubuntu Nerd Font:weight=bold:pixelsize=13:antialias=true:hinting=true" };
 static const char col_gray1[]         = "#282a36"; /* dark blueish gray */
 static const char col_gray2[]         = "#282a36"; 
 static const char col_gray3[]         = "#a9aaaf"; /* 60% lighter than gray1 */ 
