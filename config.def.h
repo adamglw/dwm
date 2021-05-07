@@ -11,12 +11,12 @@ static const int smartgaps            = 0;        /* 1 means no outer gap when t
 static const int showbar              = 1;        /* 0 means no bar */
 static const int topbar               = 1;        /* 0 means bottom bar */
 static const char *fonts[]            = { "Ubuntu Nerd Font:weight=bold:pixelsize=13:antialias=true:hinting=true" };
-static const char col_gray1[]         = "#282a36"; /* dark blueish gray */
-static const char col_gray2[]         = "#282a36"; 
-static const char col_gray3[]         = "#a9aaaf"; /* 60% lighter than gray1 */ 
-static const char col_gray4[]         = "#20222b"; /* 20% darker than gray1 */
-static const char col_cyan[]          = "#836fa9"; /* deasturated dark  violet */
-static const char col_cyan2[]         = "#b39ddb";
+static const char col_gray1[]         = "#262626"; /* Iwa     */
+static const char col_gray2[]         = "#262626"; /* Iwa     */ 
+static const char col_gray3[]         = "#a0a0a0"; /* Okami   */ 
+static const char col_gray4[]         = "#191919"; /* Kesseki */
+static const char col_cyan[]          = "#8f8aac"; /* Ume     */
+static const char col_cyan2[]         = "#a39ec4"; /* Ajisai  */
 static const unsigned int baralpha    = 220;
 static const unsigned int borderalpha = 235; /* 235 = OPAQUE */
 static const char *colors[][3]        = {
@@ -72,7 +72,7 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char scratchpadname[] = "scratch";
-static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "80x28", NULL };
+static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "90x28", NULL };
 
 #include <X11/XF86keysym.h>
 
