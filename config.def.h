@@ -13,7 +13,7 @@ static const int topbar               = 1;        /* 0 means bottom bar */
 static const char *fonts[]            = { "Ubuntu Nerd Font:weight=bold:pixelsize=13:antialias=true:hinting=true" };
 static const char col_gray1[]         = "#191919"; /* Kesseki */
 static const char col_gray2[]         = "#191919"; /* Kesseki */
-static const char col_gray3[]         = "#646464"; /* Gin dark*/ 
+static const char col_gray3[]         = "#606060"; /* Gin dark*/ 
 static const char col_gray4[]         = "#0f0f0f"; /* Yori    */
 static const char col_cyan[]          = "#565367"; /* Ume blackout*/
 static const char col_cyan2[]         = "#8f8aac"; /* Ume     */
