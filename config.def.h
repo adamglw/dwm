@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
  
 /* appearance */
-static const unsigned int borderpx    = 1;        /* border pixel of windows */
+static const unsigned int borderpx    = 0;        /* border pixel of windows */
 static const unsigned int snap        = 32;       /* snap pixel */
 static const unsigned int gappih      = 10;       /* horiz inner gap between windows */
 static const unsigned int gappiv      = 10;       /* vert inner gap between windows */
@@ -12,10 +12,10 @@ static const int showbar              = 1;        /* 0 means no bar */
 static const int topbar               = 1;        /* 0 means bottom bar */
 static const char *fonts[]            = { "Ubuntu Nerd Font:weight=bold:pixelsize=13:antialias=true:hinting=true" };
 static const char col_gray1[]         = "#191919"; /* Kesseki */
-static const char col_gray2[]         = "#262626"; /* Iwa     */ 
-static const char col_gray3[]         = "#767676"; /* Gin     */ 
-static const char col_gray4[]         = "#191919"; /* Kesseki */
-static const char col_cyan[]          = "#615d7d"; /* Ume dark*/
+static const char col_gray2[]         = "#191919"; /* Kesseki */
+static const char col_gray3[]         = "#646464"; /* Gin dark */ 
+static const char col_gray4[]         = "#0f0f0f"; /* Yori    */
+static const char col_cyan[]          = "#484556"; /* Ume blackout*/
 static const char col_cyan2[]         = "#a39ec4"; /* Ajisai  */
 static const unsigned int baralpha    = 220;
 static const unsigned int borderalpha = 235; /* 235 = OPAQUE */
