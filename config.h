@@ -13,9 +13,9 @@ static const int topbar               = 1;        /* 0 means bottom bar */
 static const char *fonts[]            = { "Ubuntu Nerd Font:weight=bold:pixelsize=13:antialias=true:hinting=true" };
 static const char col_gray1[]         = "#262626"; /* Iwa     */
 static const char col_gray2[]         = "#262626"; /* Iwa     */ 
-static const char col_gray3[]         = "#a0a0a0"; /* Okami   */ 
+static const char col_gray3[]         = "#767676"; /* Gin     */ 
 static const char col_gray4[]         = "#191919"; /* Kesseki */
-static const char col_cyan[]          = "#8f8aac"; /* Ume     */
+static const char col_cyan[]          = "#615d7d"; /* Ume dark*/
 static const char col_cyan2[]         = "#a39ec4"; /* Ajisai  */
 static const unsigned int baralpha    = 220;
 static const unsigned int borderalpha = 235; /* 235 = OPAQUE */
