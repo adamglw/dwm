@@ -11,13 +11,13 @@ static const int smartgaps            = 0;        /* 1 means no outer gap when t
 static const int showbar              = 1;        /* 0 means no bar */
 static const int topbar               = 1;        /* 0 means bottom bar */
 static const char *fonts[]            = { "Ubuntu Nerd Font:weight=bold:pixelsize=13:antialias=true:hinting=true" };
-static const char col_gray1[]         = "#191919"; /* Kesseki */
-static const char col_gray2[]         = "#191919"; /* Kesseki */
-static const char col_gray3[]         = "#606060"; /* Gin dark*/ 
+static const char col_gray1[]         = "#262626"; /* Iwa     */
+static const char col_gray2[]         = "#262626"; /* Iwa     */
+static const char col_gray3[]         = "#767676"; /* Gin     */ 
 static const char col_gray4[]         = "#0f0f0f"; /* Yori    */
-static const char col_cyan[]          = "#565367"; /* Ume blackout*/
+static const char col_cyan[]          = "#6b6881"; /* Ume 25% dim*/
 static const char col_cyan2[]         = "#8f8aac"; /* Ume     */
-static const unsigned int baralpha    = 220;
+static const unsigned int baralpha    = 225;
 static const unsigned int borderalpha = 235; /* 235 = OPAQUE */
 static const char *colors[][3]        = {
 	/*               fg         bg         border   */
