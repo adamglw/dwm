@@ -11,15 +11,15 @@ static const int smartgaps            = 0;        /* 1 means no outer gap when t
 static int showbar                    = 1;        /* 0 means no bar */
 static int topbar                     = 1;        /* 0 means bottom bar */
 static char font[]                    = { "Ubuntu Nerd Font:weight=bold:pixelsize=13:antialias=true:hinting=true" };
-static char dmenufont[]               = "Ubuntu Nerd Font:weight=bold:pixelsize=13:antialias=true:hinting=true";
+static char dmenufont[]               = "monospace:size=10"; /* I don't use this - fonts set in demenu config itself */
 static const char *fonts[]            = { font };
-static char normbgcolor[]             = "#262626"; /* Iwa     */
-static char normbordercolor[]         = "#262626"; /* Iwa     */
-static char normfgcolor[]             = "#767676"; /* Gin     */ 
-static char selfgcolor[]              = "#0f0f0f"; /* Yori    */
-static char selbordercolor[]          = "#8f8aac"; /* Ume 25% dim*/
-static char selbgcolor[]              = "#6b6881"; /* Ume     */
-static const unsigned int baralpha    = 255;
+static char normbgcolor[]             = "#222222";
+static char normbordercolor[]         = "#444444";
+static char normfgcolor[]             = "#bbbbbb";
+static char selfgcolor[]              = "#eeeeee";
+static char selbordercolor[]          = "#005577";
+static char selbgcolor[]              = "#005577";
+static const unsigned int baralpha    = 240;
 static const unsigned int borderalpha = OPAQUE; 
 static const char *colors[][3]        = {
 	/*               fg           bg           border   */
