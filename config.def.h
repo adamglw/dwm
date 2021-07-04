@@ -157,9 +157,9 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ControlMask|ShiftMask, XK_q,      quit,           {0} },
-    { MODKEY,                       XK_m,      spawn,          SHCMD("pamixer -t; kill -44 $(pidof dwmblocks)") },
-    { MODKEY,                       XK_period, spawn,          SHCMD("pamixer --allow-boost -i 1; kill -44 $(pidof dwmblocks)") },
-    { MODKEY,                       XK_comma,  spawn,          SHCMD("pamixer --allow-boost -d 1; kill -44 $(pidof dwmblocks)") },
+//    { MODKEY,                       XK_m,      spawn,          SHCMD("pamixer -t; kill -44 $(pidof dwmblocks)") },
+//    { MODKEY,                       XK_period, spawn,          SHCMD("pamixer --allow-boost -i 1; kill -44 $(pidof dwmblocks)") },
+//    { MODKEY,                       XK_comma,  spawn,          SHCMD("pamixer --allow-boost -d 1; kill -44 $(pidof dwmblocks)") },
 /*  { 0, XF86XK_AudioMute,          spawn,     SHCMD("pamixer -t; kill -44 $(pidof dwmblocks)") }, */
 /*  { 0, XF86XK_AudioRaiseVolume,   spawn,     SHCMD("pamixer --allow-boost -i 1; kill -44 $(pidof dwmblocks)") }, */
 /*  { 0, XF86XK_AudioLowerVolume,   spawn,     SHCMD("pamixer --allow-boost -d 1; kill -44 $(pidof dwmblocks)") }, */
